@@ -20,4 +20,4 @@ after_success:
         - docker push syacussi/multi-client
         - docker push syacussi/multi-nginx
         - docker push syacussi/multi-server
-          docker push syacussi/multi-worker
+        - docker push syacussi/multi-worker
